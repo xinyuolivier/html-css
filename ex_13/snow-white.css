@@ -1,0 +1,31 @@
+body{
+    background-color: yellow;
+}
+#first{
+    background-color: black;
+    color: white;
+    font-size: 21px;
+}
+
+#second{
+    background-color: white;
+    color: black;
+    font-size: 27px;
+}
+
+span{
+    color: red;
+    font-style: italic;
+}
+
+.left-bordered-and-big{
+    float: left;
+    border: black 1px solid;
+    width: 60%;
+}
+
+.right-bordered-and-small{
+    float: right;
+    border: black 1px solid;
+    width: 20%;
+}

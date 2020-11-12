@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="snow-white.css">
+        <title>exercise 11</title>
+    </head>
+    <body>
+        <header>
+            <h1>This is a header</h1>
+            <p>This is a paragraph</p>
+        </header>
+        <menu>
+            <nav>
+                <ul>
+                    <li><a href="file:///Users/oliu/Desktop/programming/html-css/ex_03/index.html">index</a></li>
+                    <li><a href="file:///Users/oliu/Desktop/programming/html-css/ex_03/php.html">php</a></li>
+                    <li><a href="file:///Users/oliu/Desktop/programming/html-css/ex_03/sql.html">sql</a></li>
+                </ul>
+            </nav>
+            
+        </menu>
+        <main>
+            <article>
+                <form action="" method="GET">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div>
+                        <label for="First name">First Name</label>
+                        <input type="text" name="first name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" name="age" min=3 max=99>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" pattern="[0-9]{10}">
+                    </div>
+                    <div>
+                        <label for="sex">Sex</label>
+                        <select name="sex">
+                            <option value="male" selected>male</option>
+                            <option value="female">female</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="hair color">Hair color</label>
+                        <input type="color" name="hair color" id="color">
+                    </div>
+                    <div>
+                        <label for="date">Date</label>
+                        <input type="date" name="date" value="2020-11-10">
+                    </div>
+                    <div>
+                        <label for="technology">technology</label>
+                        <select name="technology">
+                            <option value="php">php</option>
+                            <option value="sql">sql</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="questions">Questions</label>
+                        <textarea name="questions" id="questions" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label for="submit">submit</label>
+                        <input type="submit">
+                    </div>
+
+                </form>
+            </article>
+            <p class="a-great-style">
+                Once upon a time there lived a lovely princess with fair skin and blue eyes. 
+                She was so fair that she was named Snow White
+            </p>
+            <p class="a-great-style">
+                One day, she was knitting and pricked herself. Three drops of blood fell in the snow.
+            </p>
+            <aside>aside content tag in main tag</aside>
+        </main>
+        
+    </body>
+    <footer>
+        <address>
+            name - first name - address
+        </address>
+    </footer>
+</html>
